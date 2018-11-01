@@ -1,0 +1,144 @@
+
+
+.limpiar{
+	clear:both;
+}
+body{
+
+  background-image:url(fondo.jpg);
+
+  -webkit-background-size: 25% 100%;           /* Safari 3.0 */
+      -moz-background-size: 25% 100%;           /* Gecko 1.9.2 (Firefox 3.6) */
+           -o-background-size: 25% 100%;           /* Opera 9.5 */
+               background-size: 25% 100%;           /* Gecko 2.0 (Firefox 4.0) and other CSS3-compliant browsers */
+ 
+  -moz-border-image:url(../imagenes/2.jpg)0;    /* Gecko 1.9.1 (Firefox 3.5) */
+}
+p{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#000;
+	margin:6px;
+}
+h1{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:#000;
+	margin:6px;
+}
+.textopie{
+	color:#FFF;
+	text-align:center;
+}
+a.enlacecpw{
+	color:#0CB8F2;
+	text-decoration:none;
+}
+.titulos-internos{
+	font-family:"Times New Roman", Times, serif;
+	font-size:59px;
+	color:#999999;
+	border-bottom:9px #00C6F7 solid;
+	display:block;
+}
+
+/*---- Maquetacion -----*/
+#contenedor{
+	width:1000px;
+	margin:0 auto;
+}
+cabecera{
+	height:123px;
+	display:block;
+	background:url(../imagenes/lo.png) no-repeat center;
+}
+#menu{
+	height:150px;
+	margin-top:135px;
+	padding-left:79px;
+}
+#piepagina{
+	height:112px;
+	margin-top:15px;
+}
+/*---- Menu principal -----*/
+#menu ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+#menu li a{
+	width:180px;
+	height:180px;
+	display:block;
+	background:url(../imagenes/fondo-boton.png) no-repeat;
+	background:linear-gradient(top,#116419,#003cb8);
+	background:-moz-linear-gradient(top,#116419,#003cb8);
+	background:-o-linear-gradient(top,#116419,#003cb8);
+	background:-ms-linear-gradient(top,#116419,#003cb8);
+	background:-webkit-linear-gradient(top,#116419,#003cb8);
+	border-radius:180px;
+	float:left;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:19px;
+	color:#FFF;
+	text-align:center;
+	text-decoration:none;
+	margin-right:23px;
+	padding-top:90px;
+	position:relative;
+	transition:transform 0.4s;
+	
+	-webkit-transition:-webkit-transform 0.4s;
+}
+#menu li a:hover{
+	
+	-webkit-transform:scale(1.3,1.3) rotate(360deg);
+}
+#menu li a #icono1{
+	width:54px;
+	height:54px;
+	display:block;
+	background:url(musica.png) no-repeat;
+	position:absolute;
+	left:48px;
+	top:20px;
+}
+#menu li a:hover #icono1{
+	
+}
+#menu li a #icono2{
+	width:74px;
+	height:59px;
+	display:block;
+	background:url(peliculas.png) no-repeat;
+	position:absolute;
+	left:38px;
+	top:16px;
+}
+#menu li a:hover #icono2{
+
+}
+#menu li a #icono3{
+	width:74px;
+	height:59px;
+	display:block;
+	background:url(programas.png) no-repeat;
+	position:absolute;
+	left:38px;
+	top:16px;
+}
+#menu li a:hover #icono3{
+	
+}
+#menu li a #icono4{
+	width:72px;
+	height:59px;
+	display:block;
+	background:url(juegos.png) no-repeat;
+	position:absolute;
+	left:39px;
+	top:16px;
+}
+#menu li a:hover #icono4{
+	
